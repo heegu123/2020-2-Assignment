@@ -1,4 +1,4 @@
-#define PIN_LED 13
+#define PIN_LED 7
 unsigned int count, toggle, flag;
 
 void setup() {
