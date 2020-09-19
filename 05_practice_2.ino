@@ -1,3 +1,4 @@
+
 #define PIN_LED 7
 unsigned int count, toggle, flag;
 
@@ -8,7 +9,7 @@ void setup() {
     ; // wait for serial port to connect.
   }
   Serial.println("Hello World!");
-  count = toggle = 0;
+  count = toggle = 1;
   digitalWrite(PIN_LED, toggle); // turn off LED.
 }
 
