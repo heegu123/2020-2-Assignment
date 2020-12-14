@@ -31,9 +31,9 @@
 #define _INTERVAL_SERIAL 100  //시리얼 플로터 갱신간격
 
 // PID parameters
-#define _KP 1.8              //비례 제어의 상수 값
-#define _KD 42
-#define _KI 0.025
+#define _KP 2             //비례 제어의 상수 값
+#define _KD 78
+#define _KI 0.002
 
 //filter
 #define DELAY_MICROS 1500
