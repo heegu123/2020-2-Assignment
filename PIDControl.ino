@@ -33,7 +33,7 @@
 // PID parameters
 #define _KP 2             //비례 제어의 상수 값
 #define _KD 78
-#define _KI 0.002
+#define _KI 0.0013
 
 //filter
 #define DELAY_MICROS 1500
